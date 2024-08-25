@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tiny Eventbus</title>
+    <meta charset="utf-8" />
+
+    <link type="text/css" rel="stylesheet" href="css/index.css" media="screen" />
+  </head>
+
+  <body>
+    <div id="app">
+      <h1>Eventbus - Demo Page</h1>
+
+      <div class="button-container">
+        <button class="button" onclick="Attach()";>Attach</button>
+        <button class="button" onclick="Emit()">Emit</button>
+        <button class="button" onclick="Detach()">Detach</button>
+      </div>
+
+      <!-- Container for displaying the output -->
+      <div class="content" id="output"></div>
+    </div>
+    <!-- Include the JavaScript files -->
+    <script type="text/javascript" src="js/tiny-eventbus.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+  </body>
+</html>
